@@ -4,19 +4,27 @@
 
 html,
 body {
-  background-image: url('img/wallpaper1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+  /* margin: 0;
+  padding:  0 ; */
+  /* height: 100%; */
   font-family: 'Numans', sans-serif;
 }
 
-.container {
-  height: 100%;
+#container1 {
+  background-image: url('img/wallpaper1.jpg');
+  /* background-color: chartreuse ; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   align-content: center;
+  width:  100vw;
 }
 
-.card {
+#regForm{
+  margin-top: -10% ;
+}
+
+#card2 {
   height: 370px;
   margin-top: auto;
   margin-bottom: auto;
@@ -72,7 +80,13 @@ input:focus {
 .login_btn {
   color: black;
   background-color: #FFC312;
-  width: 100px;
+  width: 50%;
+ 
+}
+
+
+#regBtn {
+  margin-top: -30%;
 }
 
 .login_btn:hover {

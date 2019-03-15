@@ -17,5 +17,9 @@ angular.module("guideApp", [
         .when("/admin", {
             templateUrl: "pages/adminStart.html",
             controller: "adminStartCtrl"
+        })
+        .when("/jobs", {
+            templateUrl: "pages/jobs.html",
+            controller: "jobsCtrl"
         });
 });

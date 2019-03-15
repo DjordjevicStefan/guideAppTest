@@ -5,19 +5,25 @@
 
 html,
 body {
-  background-image: url('img/wallpaper2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+
+  /* margin: 0;
+  padding:  0 ; */
+  height: 100vh;
   font-family: 'Numans', sans-serif;
 }
 
-.container {
+#container2 {
+  background-image: url('img/wallpaper2.jpg');
+  /* background-color: blue ; */
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
   align-content: center;
+  width:  100vw;
+  
 }
 
-.card {
+#card1 {
   height: 370px;
   margin-top: auto;
   margin-bottom: auto;
